@@ -1,5 +1,9 @@
 # Project QuickScopes
 
+## Please keep in mind
+
+    I am far from amazing at this, and nothing here is set in stone, so everything is subject to change as project grows and new things are learnt
+
 ## Goal
 
     Create a Peer-to-Peer Rental Marketplace for Telescopes
