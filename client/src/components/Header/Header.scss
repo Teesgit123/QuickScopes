@@ -1,0 +1,14 @@
+@use "../../partials/variables" as *;
+@use "../../partials/mixins" as *;
+.header {
+  width: 100%;
+  padding: 0.75rem 1rem;
+
+  background-color: $blue-darker;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  @include lists;
+}
