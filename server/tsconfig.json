@@ -3,13 +3,13 @@
     "target": "es2017", // Compiled JavaScript target
     "module": "commonjs",
     "outDir": "./dist", // Output directory for compiled files
-    "rootDir": "./src", // Root directory of TypeScript source files
+    "rootDir": "./", // Root directory of TypeScript source files
     "esModuleInterop": true,
     "strict": true, // Enable all strict type-checking options
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "knexfile.ts"],
   "exclude": ["node_modules"]
 }
 

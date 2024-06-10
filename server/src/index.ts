@@ -14,8 +14,8 @@ const app: Express = express();
 app.use(express.json());
 app.use(cors({ origin: CORS_ORIGIN }));
 
-app.get("/", (req, res) => {
-  res.send("CORS settings have been configured!");
+app.get("/", (request: Request, response: Response) => {
+  response.send("CORS settings have been configured!");
 });
 
 app.listen(port, () => {
