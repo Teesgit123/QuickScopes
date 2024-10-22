@@ -1,0 +1,18 @@
+@use './fonts' as *;
+@use './variables' as *;
+
+@mixin tablet {
+    @media (min-width: 767px) and (max-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1279px) and (max-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin lists {
+    list-style-type: none;
+}
