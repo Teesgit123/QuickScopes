@@ -2,6 +2,7 @@
   "name": "quickscopes-client",
   "version": "1.0.0",
   "description": "The frontend of the worlds first peer-to-peer rental marketplace for telescopes",
+  "private": "true",
   "main": "dist/bundle.js",
   "scripts": {
     "start": "webpack serve --open",
